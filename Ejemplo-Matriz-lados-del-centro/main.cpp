@@ -1,5 +1,13 @@
 #include <iostream>
 
+/*
+Cree un programa que permita ingresar por teclado un valor entero impar mayor o igual a 5 el cual indicara el 
+número de filas y de columnas de un array. Valide que el valor ingresado sea un valor entero impar mayor o igual a 5,
+caso contrario emita una excepción (mediante throw) que muestre el mensaje “El valor ingresado no es un numero entero 
+impar mayor o igual a 5.” Cree un array de 2 dimensiones de orden filas X columnas.
+Genere una matriz cuyas filas/columnas colindantes a la celda central tengan asignado un carácter X, el resto carácter 0.
+Muestre por pantalla la matriz resultante.
+*/
 using namespace std;
 
 int tamanio(){

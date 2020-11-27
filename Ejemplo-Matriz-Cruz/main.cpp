@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
-
+/*
+Cree un programa que permita ingresar por teclado un valor entero, mediante el valor entero cree una matriz de 2 
+dimensiones de orden igual al valor entero.
+Muestre por pantalla la matriz con 1 en la columna y fila central y el resto 0.
+*/
 
 int main(int argc, char** argv) {
 	

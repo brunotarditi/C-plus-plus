@@ -1,4 +1,10 @@
 #include <iostream>
+
+/*
+Cree un programa que permita ingresar por teclado un valor entero, mediante el valor entero cree una matriz de 2 
+dimensiones de orden igual al valor entero.
+Muestre por pantalla la matriz resultante generando matriz identidad y la matriz identidad inversa.
+*/
 using namespace std;
 
 int tamanio(){
