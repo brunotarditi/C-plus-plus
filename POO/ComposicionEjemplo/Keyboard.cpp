@@ -1,10 +1,8 @@
-#include <iostream>
 #include "Keyboard.h"
-
+#include <iostream>
 using namespace std;
-
-Keyboard::Keyboard(){
-	
+Keyboard::Keyboard()
+{
 }
 
 Keyboard::Keyboard(string _color){

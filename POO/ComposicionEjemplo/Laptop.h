@@ -1,10 +1,10 @@
 #ifndef LAPTOP_H
 #define LAPTOP_H
-#include<iostream>
 #include "Keyboard.h"
-
-class Laptop{
-	
+#include <iostream>
+using namespace std;
+class Laptop
+{
 	public:
 		Laptop();
 		Laptop(string, string, string);
@@ -16,13 +16,11 @@ class Laptop{
 		void setServiceTag(string serviceTag);
 		Keyboard getKeyboard();
 		void setKeyboard(Keyboard keyboard);
-	
 	private:
 		string manufacturer;
 		string model;
 		string serviceTag;
 		Keyboard keyboard = Keyboard();
-		
 };
 
 #endif

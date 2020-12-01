@@ -3,17 +3,15 @@
 #include <iostream>
 
 using namespace std;
-
-class Keyboard{
+class Keyboard
+{
 	public:
 		Keyboard();
 		Keyboard(string);		
 		string getColor();
 		void setColor(string color);
-
 	private:
 		string color;
 };
 
 #endif
-

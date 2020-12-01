@@ -1,6 +1,6 @@
 [Project]
-FileName=Proyecto 1.dev
-Name=Proyecto 1
+FileName=Composicion.dev
+Name=Composicion
 Type=1
 Ver=2
 ObjFiles=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=00000000c0000000000000000
 UnitCount=5
 
 [VersionInfo]
@@ -50,16 +50,6 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=main.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
 FileName=Keyboard.h
 CompileCpp=1
@@ -71,7 +61,17 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=Laptop.h
+FileName=Keyboard.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=Keyboard.cpp
+FileName=Laptop.h
 CompileCpp=1
 Folder=
 Compile=1

@@ -1,13 +1,9 @@
-#include <iostream>
 #include "Laptop.h"
 #include "Keyboard.h"
-
-using namespace std;
-
-Laptop::Laptop(){
-	
+#include <iostream>
+Laptop::Laptop()
+{
 }
-
 Laptop::Laptop(string ma, string mo, string st){
 	
 	manufacturer = ma;
