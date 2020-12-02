@@ -5,8 +5,8 @@ Keyboard::Keyboard()
 {
 }
 
-Keyboard::Keyboard(string _color){
-	color = _color;
+Keyboard::Keyboard(string c){
+	color = c;
 }
 
 string Keyboard::getColor(){

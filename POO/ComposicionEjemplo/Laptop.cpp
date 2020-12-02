@@ -4,10 +4,10 @@
 Laptop::Laptop()
 {
 }
-Laptop::Laptop(string ma, string mo, string st){
+Laptop::Laptop(string m, string md, string st){
 	
-	manufacturer = ma;
-	model = mo;
+	manufacturer = m;
+	model = md;
 	serviceTag = st;
 		
 }
@@ -40,12 +40,11 @@ void Laptop::setServiceTag(string s){
 	serviceTag = s;
 }
 
-Keyboard Laptop::getKeyboard(){
+Keyboard& Laptop::getKeyboard(){
 	
 	return keyboard;
 }
 
-void Laptop::setKeyboard(Keyboard ke){
-	
-	keyboard = ke;
+void Laptop::setKeyboard(Keyboard k){
+	keyboard = k;
 }

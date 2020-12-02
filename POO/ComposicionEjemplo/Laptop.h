@@ -14,13 +14,14 @@ class Laptop
 		void setModel(string model);
 		string getServiceTag();
 		void setServiceTag(string serviceTag);
-		Keyboard getKeyboard();
+		Keyboard& getKeyboard();
 		void setKeyboard(Keyboard keyboard);
 	private:
 		string manufacturer;
 		string model;
 		string serviceTag;
 		Keyboard keyboard = Keyboard();
+		
 };
 
 #endif

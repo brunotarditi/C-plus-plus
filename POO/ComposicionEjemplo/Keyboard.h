@@ -1,7 +1,6 @@
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 #include <iostream>
-
 using namespace std;
 class Keyboard
 {
@@ -9,7 +8,7 @@ class Keyboard
 		Keyboard();
 		Keyboard(string);		
 		string getColor();
-		void setColor(string color);
+		void setColor(string);
 	private:
 		string color;
 };
