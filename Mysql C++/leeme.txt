@@ -1,0 +1,18 @@
+Breve explicación de cómo conectarse a una base de datos y seleccionar los datos de una tabla:
+1) Tener instalado el servicio de MYSQL *(aclaración: este ejemplo se hizo con mysql 5.6, no fue probado con 8.0)
+2) Tener el IDE dev c++
+3) Crear un proyecto
+4) En el main incluir: 
+	#include <windows.h>
+	#include <iostream>
+	#include <mysql.h>
+	#include <mysqld_error.h>
+5) Ir a Proyecto -> Opciones de proyecto -> Argumentos para el programa y en Linker escribir: -Imysql
+6) Luego en Proyecto -> Opciones de proyecto -> Archivos/Directorios añadir las rutas: 
+	C:\Program Files\MySQL\MySQL Server 5.6\lib en "Directorios de Librerías (.a .lib .dll)
+	C:\Program Files\MySQL\MySQL Server 5.6\include en Directorios de Include
+7) Por último hay que copiar el archivo "libmysql.dll" de la ruta: C:\Program Files\MySQL\MySQL Server 5.6\lib
+y pegar en la carpeta del proyecto.
+
+*IMPORTANTE
+Los parametros de la base de datos como dirección usuario, contraseña, nombre de la base de datos, puerto, deben corroborarse
