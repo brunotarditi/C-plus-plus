@@ -1,0 +1,37 @@
+//ACLARACIÓN, ESTE EJERCICIO FUE HECHO CON EL FRAMEWORK Qt, pero puede usar otro.
+Cree una clase “ItemArticulo” con los atributos:
+Código (int)
+Nombre (string)
+Precio (double)
+Cantidad (int)
+Debe generar el correpondiente archivo de cabecera (h) y su cpp
+Genere las correspondientes propiedades públicas y/o métodos get/set
+b- En un archivo cpp incluya el main para la
+ejecución del programa, además declare 2 variables globales un List de Objetos
+ItemArticulo y un array “articulos” de 10 filas por 3 columnas (código, nombre,
+precio) con el siguiente contenido:
+
+100	Gaseosa		120
+150 	Fideos 		50
+200 	Arroz 		60
+250 	Harina 		55
+300 	Lavandina	70
+350 	Café 		200
+400 	Azúcar 		120
+450 	Yerba 		80
+500 	Te 		90
+550 	Docena de Huevos160
+
+
+Codifique un programa que solicite un código de un articulo, busque el código en el
+array, en caso de que el código no exista emitir el mensaje “El código ingresado no
+existe, intente nuevamente” y vuelva a solicitar el código. Si el código existe solicite
+al usuario que indique la cantidad de artículos, posteriormente cree una instancia de la
+clase ItemArticulo y asigne la información correspondiente recuperando la misma del
+array de artículos. Agregue la instancia del artículo al List de objetos. Repita este
+proceso hasta que el usuario indique que no quiere continuar cargando artículos, para
+ello al finalizar la carga de un artículo deberá preguntar “Desea cargar un nuevo
+artículo. Presiona s/n para continuar con la carga o presione otra tecla para
+salir”.
+Al finalizar la carga de los artículos, muestre los mismos por consola y el
+correspondiente total facturado.
