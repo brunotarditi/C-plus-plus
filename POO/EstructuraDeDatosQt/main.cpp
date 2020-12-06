@@ -48,7 +48,6 @@ int main()
         }else{
             cout << "El codigo ingresado no existe, vuelva a intentar." << endl;
         }
-        cin.ignore();
         cout << "Desea cargar otro articulo? presione (s/n): " << endl;
         cin >> pregunta;
         cin.ignore();
