@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <fstream>
 using namespace std;
-
+/*Cree una funcion para la lectura del archivo creado anteriormente
+*/
 void lectura();
 int main(int argc, char** argv){
 	
